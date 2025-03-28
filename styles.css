@@ -1,0 +1,235 @@
+.container{
+
+}
+.headcontainer{
+    background-color: rgb(225, 234, 234);
+    height: 700px;
+}
+.head{
+    display: flex;
+    gap: 3%;
+}
+@font-face {
+    font-family: poppins;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: poppinsbold;
+    src: url(fonts/Poppins-Bold.ttf);
+}
+#dit{
+    font-family: poppinsbold;
+}
+.options{
+    display:flex;
+    gap: 7%;
+    margin-left: 19%;
+    font-family: poppins;
+   
+}
+.options li{
+    list-style: none;
+    display: flex;
+  
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#feature{
+    font-weight: bold;
+}
+.logsign{
+    display: flex;
+    margin-left: 1050px;
+    margin-top: -4%;
+   gap: 8%;
+
+}
+.log{
+ padding-left: 12px;
+ padding-right: 15px;
+ margin-left: 12px;
+ width: 70%;
+ font-family: poppins;
+ border: none;
+ border-radius: 12%; 
+ margin-right: 12px; 
+ background-color: rgb(225, 234, 234);
+}
+.sign{
+ padding-left: 12px;
+ padding-right: 17px;
+ width: 40%;
+font-family: poppins;
+background-color: fuchsia;
+border: none;
+color: white;
+font-weight: bolder;
+border-radius: 12%;
+margin-right: 1px;
+}
+.improve{
+    color: rgb(5, 5, 86);
+}
+.you_charge{
+    color: red;
+    text-decoration: underline;
+}
+.improve{
+    margin-left: 15%;
+    display: flex;
+
+}
+.rightside h1{
+    font-size: 50px;
+}
+.rightside p{
+    font-family: poppins;
+    font-weight: lighter;
+    color: rgb(120, 120, 167);
+}
+.apps{
+    display: flex;
+    gap: 3%;
+}
+#apple{
+    background-color: rgb(5, 5, 86);
+    color: white;
+    font-family: poppinsbold;
+    font-size:16px ;
+    width: 20%;
+    border-radius: 7%;   
+}
+.playstoreicon{
+    width: 12%;
+
+}
+#playstore{
+   width: 20%;
+   padding:5px ;
+   margin-top: 1px;
+   border-radius: 10%; 
+   font-size:16px ;
+   font-family:poppins;
+   font: bolder;
+   text-align: center;
+
+}
+#contact{
+    text-decoration: underline;
+    font-family:poppinsbold;
+    color: rgb(5, 5, 86);
+}
+.leftside{
+    margin-right: 290px;
+
+}
+.roger{
+    border: none;
+    width: 130%;
+    border-radius: 5%;
+    background-color: white;
+    padding: 15px;
+    margin-top: 30px;
+    transform: rotate(-6deg);
+}
+.roger_top{
+    display: flex;
+    gap: 1%;
+}
+.roger_photo{
+    display: flex;
+    gap: 12%;
+    margin-top: 12px;
+}
+#roger_photo{
+    width: 17%;
+    margin-top: 10px;
+    margin-left:12px ;
+    border-radius: 50%;
+}
+.roger_photo p{
+    background-color: rgb(225, 234, 234);
+    color: blue;
+    font-family: poppins;
+    font-size: 13px;
+    padding: 9px;
+    border-radius: 9%; 
+}
+.roger_details{
+    font-family: poppins;
+    margin-top: 50px;
+    display: flex;
+    gap: 20%;
+    color: black;
+
+}
+.roger_details h1{
+    font-size: 20px;
+    font-family: poppinsbold;
+  
+}
+.roger_details p{
+    font-size: 14px;
+    margin-top: 1px;
+}
+.oculus{
+    font-family: poppinsbold;
+}
+.salary{
+    color: black;
+}
+.salary h1{
+    font-family: poppinsbold;
+    font-size: 20px;
+}
+.salary p{
+    font-family: poppins;
+    font-size: 12px;
+}
+#beardguy{
+   position: absolute;
+   z-index:2;
+   top: 112%;
+   left: 70%;
+   width: 18%;
+   border-radius: 12%;
+   transform: rotate(-6deg);
+
+}.speed{
+    border-radius: 12%;
+    background-color: white;
+    display: flex;
+    margin-right: 20%;
+    margin-top: 48px;
+    position: absolute;
+    z-index:2;
+    gap: 39%;
+    width: 20%;
+    padding-left: 10px;
+    font-family: poppinsbold;
+    color: black;
+    transform: rotate(-6deg);
+}
+#avg{
+    font-size: 12px;
+}
+.otherppl{
+    background-color: white;
+    display: block;
+  
+    
+}
+#first{
+    width: 12%;
+    border-radius: 50%;
+}
+#second{
+    width: 12%;
+    border-radius: 50%;
+}
+#third{
+    width: 12%;
+    border-radius: 50%;
+}
