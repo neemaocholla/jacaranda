@@ -1,6 +1,3 @@
-.container{
-
-}
 .headcontainer{
     background-color: rgb(225, 234, 234);
     height: 700px;
@@ -41,9 +38,8 @@ a{
 }
 .logsign{
     display: flex;
-    margin-left: 1050px;
+    margin-left: 1049px;
     margin-top: -4%;
-   gap: 8%;
 
 }
 .log{
